@@ -4,17 +4,36 @@
   box-sizing: border-box;
 }
 
-body{
-    margin-top:70px;
-    background:pink;
-    color:#fff;
+.main{
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    background:rgb(14, 12, 46);
+    color:#b11c3c;
+    border: 2px solid green;
+    border-radius: 5%;
+    line-height: 40px;
   }
-  .container{
-    padding: 5%;
+  body
+  {
+    padding: 50px;
+    background-color: rgb(5, 122, 83);
   }
   input{
     line-height: 30px;
   }
   #search{
   font-size: 20px;
+  }
+  h3{
+    color:rgb(92, 19, 59);
+  }
+  #weight div{
+    border: 2px solid greenyellow;
+    margin: 10px;
+  }
+  .wghts{
+    background-color: bisque;
+    display: block;
   }

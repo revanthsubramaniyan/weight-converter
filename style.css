@@ -7,8 +7,6 @@
 .main{
     padding: 50px;
     margin-top: 20px;
-    display: flex;
-    justify-content: center;
     background:rgb(14, 12, 46);
     color:#b11c3c;
     border: 2px solid green;
@@ -20,6 +18,8 @@
   {
     padding: 50px;
     background-color: rgb(5, 122, 83);
+    display: flex;
+    justify-content: center;
   }
   input{
     line-height: 30px;

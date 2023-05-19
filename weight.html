@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weightconverter</title>
+    <link rel="stylesheet" href="weight.css">
+</head>
+<body>
+    <div class="container">
+      <h1>Weight Converter</h1>
+      <h3>choose your conversion</h3>
+      <select name="searchname" id="search">
+        <option value="">-----</option>
+        <option id="opt" value="tonne">tonne</option>
+        <option id="opt" value="kilo">kilo</option>
+        <option id="opt" value="gram">gram</option>
+        <option id="opt" value="microgram">microgram</option>
+        <option id="opt"value="milligram">milligram</option>
+        <option id="opt"value="pound">pound</option>
+        <option id="opt"value="ounce">ounce</option>
+      </select>
+      <form>
+        <div class="form-group">
+          <input id="lbsInput" type="number"  placeholder="Enter number...">
+        </div>
+      </form>
+      <div id="weight">
+        <div id="tonne">
+          <h3>tonnes</h3>
+          <div id="tonneoutput"></div>
+          </div>
+      <div id="kilo">
+        <h3>Kilograms</h3>
+        <div id="kgramsoutput"></div>
+        </div>
+      <div id="gram">
+         <h3>Grams</h3>
+         <div id="gramsoutput"></div>
+      </div>
+      <div id="milligram">
+        <h3>milligrams</h3>
+        <div id="millioutput"></div>
+     </div>
+      <div id="microgram">
+        <h3>micrograms</h3>
+        <div id="microoutput"></div>
+     </div>
+     <div id="pound">
+        <h3>Pounds</h3>
+        <div id="poundoutput"></div>
+     </div>
+     <div id="ounce">
+        <h3>Ounce</h3>
+        <div id="ounceoutput"></div>
+     </div>
+    </div>
+    </div>
+<script src="weight.js"></script>
+</body>
+</html>

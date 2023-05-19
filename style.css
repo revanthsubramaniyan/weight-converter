@@ -5,7 +5,7 @@
 }
 
 .main{
-    padding: 10px;
+    padding: 50px;
     margin-top: 20px;
     display: flex;
     justify-content: center;
@@ -14,7 +14,7 @@
     border: 2px solid green;
     border-radius: 5%;
     line-height: 40px;
-   width: 50%;
+   width: 30%;
   }
   body
   {
@@ -31,7 +31,6 @@
     color:rgb(92, 19, 59);
   }
   #weight div{
-    border: 2px solid greenyellow;
     margin: 10px;
   }
   .wghts{
